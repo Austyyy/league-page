@@ -33,7 +33,7 @@ export const tabs = [
             },
             {
                 icon: 'local_fire_department',
-                label: 'Manager Comparison',
+                label: 'Rivalry',
                 dest: '/rivalry',
             },
             {

@@ -6,7 +6,8 @@ export const dynasty = true; // true for dynasty leagues, false for redraft and 
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
-eexport const homepageText = `
+export const homepageText = `
+  <p><iframe src="https://drive.google.com/file/d/1jNCYjB23syZHzczE1ZQAG4Ew_OFsO-P5/preview" width="640" height="480" allow="autoplay"></iframe></p>
 `;
   
 `;

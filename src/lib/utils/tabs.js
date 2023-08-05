@@ -17,11 +17,6 @@ export const tabs = [
         dest: '/transactions',
     },
     {
-        icon: 'article',
-        label: 'Blog',
-        dest: '/blog',
-    },
-    {
         icon: 'view_comfy',
         label: 'League Info',
         nest: true,
@@ -38,7 +33,7 @@ export const tabs = [
             },
             {
                 icon: 'local_fire_department',
-                label: 'Rivalry',
+                label: 'Manager Comparison',
                 dest: '/rivalry',
             },
             {
@@ -62,13 +57,8 @@ export const tabs = [
                 dest: '/records',
             },
             {
-                icon: 'history_edu',
-                label: 'Constitution',
-                dest: '/constitution',
-            },
-            {
                 icon: 'sports_football',
-                label: 'Go to Sleeper',
+                label: 'League Page',
                 dest: `https://sleeper.app/leagues/${leagueID}`,
             },
         ]

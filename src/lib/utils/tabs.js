@@ -7,6 +7,11 @@ export const tabs = [
         dest: '/',
     },
     {
+        icon: 'storage',
+        label: 'Rosters',
+        dest: '/rosters',
+    },
+    {
         icon: 'sports',
         label: 'Matchups',
         dest: '/matchups',
@@ -21,11 +26,6 @@ export const tabs = [
         label: 'League Info',
         nest: true,
         children: [
-            {
-                icon: 'storage',
-                label: 'Rosters',
-                dest: '/rosters',
-            },
             {
                 icon: 'groups',
                 label: 'Managers',
@@ -47,14 +47,14 @@ export const tabs = [
                 dest: '/drafts',
             },
             {
-                icon: 'emoji_events',
-                label: 'Trophy Room',
-                dest: '/awards',
-            },
-            {
                 icon: 'military_tech',
                 label: 'Records',
                 dest: '/records',
+            },
+            {
+                icon: 'emoji_events',
+                label: 'Trophy Room',
+                dest: '/awards',
             },
             {
                 icon: 'sports_football',

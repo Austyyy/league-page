@@ -1,15 +1,13 @@
 /*   STEP 1   */
 export const leagueID = "931676649077198848"; // your league ID
 export const leagueName = "Sim Racer's Dynasty League"; // your league name
-export const dues = 0; // (optional) used in template constitution page
+export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
   <p><iframe src="https://drive.google.com/file/d/1jNCYjB23syZHzczE1ZQAG4Ew_OFsO-P5/preview" width="640" height="480" allow="autoplay"></iframe></p>
-`;
-  
 `;
 
 /*   STEP 3   */
@@ -68,7 +66,7 @@ export const managers = [
     // },
     // {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Austin",
+    //   "name": "Your Name",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",

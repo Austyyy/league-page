@@ -5,26 +5,26 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
-            name: "FTN Fantasy",
-            url: "https://www.ftnfantasy.com/nfl",
+            name: "KeepTradeCut",
+            url: "https://keeptradecut.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+        },
+        {
+            name: "Dynasty Daddy",
+            url: "https://dynasty-daddy.com/",
             icon: "insights",
-            premium: true,
-            separator: true,
-        },
-        {
-            name: "The Fantasy Footballers",
-            url: "https://www.thefantasyfootballers.com/",
-            icon: "podcasts",
-            premium: true,
-            separator: true,
-        },
-        {
-            name: "FantasyPros Dynasty Trade Value Chart",
-            url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
-            icon: "assessment",
             premium: false,
             separator: true,
             dynastyOnly: true,
+        },
+        {
+            name: "Player Profiler",
+            url: `https://www.playerprofiler.com/`,
+            icon: "insights",
+            premium: false,
+            separator: true,
         },
         {
             name: "DynastyProcess Trade Calculator",
@@ -63,14 +63,6 @@ import { dynasty } from './utils/helper';
             url: "https://dynasty101.com/trade-calculator/",
             icon: "calculate",
             premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Dynasty Nerds GM",
-            url: "https://gm.dynastynerds.com/",
-            icon: "insights",
-            premium: true,
             separator: true,
             dynastyOnly: true,
         },

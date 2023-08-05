@@ -35,14 +35,6 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "Dynasty League Football",
-            url: "https://dynastyleaguefootball.com/",
-            icon: "insights",
-            premium: true,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
             name: "Reddit Dynasty Fantasy Football",
             url: "https://www.reddit.com/r/DynastyFF/",
             icon: "article",

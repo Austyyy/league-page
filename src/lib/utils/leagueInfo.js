@@ -7,7 +7,6 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 eexport const homepageText = `
-  <p><iframe src="https://drive.google.com/file/d/1Ek8I0x4R9LHYXr47-hQ5hZSzhPE0c-YP/view" width="640" height="480" allow="autoplay"></iframe></p>
 `;
   
 `;

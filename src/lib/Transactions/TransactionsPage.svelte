@@ -281,11 +281,11 @@
 
 	{#if totalTransactions == 0}
 		{#if show == "trade"}
-			<p class="empty">{query.trim() != "" ? "No trades match your search" : "Nobody has made any trades yet... that's just sad" }</p>
+			<p class="empty">{query.trim() != "" ? "No trades match your search" : "There are currently no trades that have been made" }</p>
 		{:else if show == "waiver"}
-			<p class="empty">{query.trim() != "" ? "No waivers match your search" : "Nobody has made any waiver wire moves yet... that's just sad" }</p>
+			<p class="empty">{query.trim() != "" ? "No waivers match your search" : "There are currently no waiver claims that have been made" }</p>
 		{:else}
-			<p class="empty">{query.trim() != "" ? "No transactions match your search" : "Nobody has made any moves yet... that's just sad" }</p>
+			<p class="empty">{query.trim() != "" ? "No transactions match your search" : "There are currently no transactions that have been made" }</p>
 		{/if}
 	{/if}
 </div>
